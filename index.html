@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bar char using Html, Css and Vanilla Js</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  
+    <div class="main-container">
+        <div class="container">
+            <div class="topBx">
+                <div class="balanceBx">
+                    <p>My balance</p>
+                    <h1>$921.89</h1>
+                </div>
+                <div class="logo">
+                    <div class="circle"></div>
+                </div>
+            </div>
+            <div class="bottomBx">
+                <h1 class="main-title">Spending - Last 7 days</h1>
+                <div class="chart">
+                     <svg id="barJs"></svg>
+                     <div class="label-cont">
+                        
+                     </div>
+                     
+                </div>
+                <hr>
+                <div class="moneyBx">
+                    <div class="balance">
+                        <p class="p">Total this month</p>
+                        <h1>$424.2</h1>
+                    </div>
+                    <div class="interest">
+                        <b>+2.4%</b>
+                        <p class="p">from last month</p>
+                    </div>
+                </div>
+            </div>  
+            
+        </div>
+    </div>
+    <script src="./data.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
